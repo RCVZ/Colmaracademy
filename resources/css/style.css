@@ -1,0 +1,224 @@
+/* universal style */
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.85rem;
+  font-weight: 700;
+}
+
+span {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+nav a,
+footer span a {
+ text-decoration: none;
+ color: black;
+}
+
+.thesis h2,
+.courses-section h2 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.main-container {
+  position: relative;
+  top: 64px;
+  background-color: darkgrey;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile {
+  display: none;
+}
+
+.media-section {
+  width: 60%;
+  padding: 32px 24px;
+  color: white;
+}
+
+.media-section img {
+  max-width: 100%;
+}
+
+.right-section {
+  width: 40%;
+}
+
+.img-container {
+  width: 35%;
+  height: auto;
+  margin: 1rem;
+}
+
+.img-container .desktop {
+  width: 100%;
+}
+
+/* header + navigation */
+
+header {
+  box-sizing:border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 64px;
+  width: 100%;
+  padding: 0 24px;
+  z-index: 1;
+  background: #00c201;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo strong {
+  font-weight: 700;
+}
+
+/* learn-section */
+
+.learn, .courses-section {
+  background-color: #e0e0e0;
+}
+
+.start-box {
+  justify-content: center;
+  background-color: #F5F5F6;
+  padding: 2.5rem;
+  margin: auto;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.right-section h1 {
+  line-height: 1;
+  padding-bottom: 1rem;
+}
+
+.button {
+  display: inline-block;
+  width: 85%;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  background-color: #004d40;
+  padding: 0.5rem 0;
+  margin-top: 1rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.button:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.media-section h2 {
+  padding: 2rem 0 1.5rem 0;
+}
+
+/* practice-section and thesis-section */
+
+.information {
+  margin: 1rem 0 0 0;
+  background-color: #F5F5F6;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.information:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  background-color: #e0e0e0;
+}
+
+.info {
+  justify-content: center;
+  width: 65%;
+}
+
+.info span {
+  margin: 0.5rem 0;
+}
+
+/* courses-section */
+
+.courses {
+  flex-wrap: wrap;
+  margin: 0 3.5rem;
+}
+
+.course {
+  flex-basis: 30%;
+  margin: 0 1rem 2rem 1rem;
+  background: #F5F5F6;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.course:hover {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.head-img img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  height: 100%;
+  padding: 1rem;
+}
+
+.content p {
+  padding: 0.5rem 0;
+}
+
+.content span {
+  padding-bottom: 0.5rem;
+  text-align: left;
+}
+
+/* thesis */
+
+.thesis .desktop h2 {
+  text-align: left;
+}
+
+/* footer*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 6rem;
+  background-color: #e0e0e0;
+}
+
+footer span {
+  margin: 1rem 1.5rem;
+}
